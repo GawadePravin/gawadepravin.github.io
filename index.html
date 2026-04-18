@@ -1,44 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Pravin Gawade - CV</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body { font-family: Arial; margin: 40px; line-height: 1.6; }
-        h1 { color: #2c3e50; }
-        h2 { border-bottom: 1px solid #ddd; padding-bottom: 5px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pravin Gawade | Senior Software Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #2563eb;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --bg: #f8fafc;
+      --card: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: var(--primary);
+    }
+
+    header p {
+      margin: 10px 0;
+      color: var(--muted);
+    }
+
+    .links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    section {
+      background: var(--card);
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: var(--primary);
+    }
+
+    ul { padding-left: 20px; }
+
+    .job {
+      margin-bottom: 20px;
+    }
+
+    .job h3 {
+      margin: 0;
+      color: var(--accent);
+    }
+
+    .job span {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
 
-<h1>Pravin Dnyandeo Gawade</h1>
-<p>Email: gawade.pravin@gmail.com | Phone: +91 9960173015 | Pune, India</p>
+    <header>
+      <h1>Pravin Dnyandeo Gawade</h1>
+      <p>Senior Software Engineer | Embedded Systems | IoT</p>
+      <p>Pune, India | +91 9960173015 | gawade.pravin@gmail.com</p>
+      <div class="links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </header>
 
-<h2>Summary</h2>
-<p>Senior Software Engineer with 18+ years of experience in C/C++, embedded systems, and IoT.</p>
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Senior Software Engineer with 18+ years of experience in C/C++, embedded systems, and cross-platform development.
+        Strong expertise in IoT, multi-threading, and system-level programming. Proven ability to build scalable products
+        and solve complex production issues.
+      </p>
+    </section>
 
-<h2>Technical Skills</h2>
-<ul>
-<li>C, C++, Objective-C, Kotlin, Swift</li>
-<li>Embedded Systems, IoT, Multi-threading</li>
-<li>Windows, Linux, macOS, Android, iOS</li>
-</ul>
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> C, C++, Objective-C, Kotlin, Swift</li>
+        <li><strong>Technologies:</strong> Embedded Systems, IoT, Multi-threading</li>
+        <li><strong>Frameworks:</strong> Win32, MFC, STL, Cocoa, UIKit, SwiftUI</li>
+        <li><strong>Platforms:</strong> Windows, Linux, macOS, Android, iOS</li>
+      </ul>
+    </section>
 
-<h2>Experience</h2>
-<h3>Info-Bridge Solutions</h3>
-<ul>
-<li>Developed IoT firmware using C++</li>
-<li>Implemented LoRa mesh communication</li>
-<li>Built Android & iOS apps</li>
-</ul>
+    <section>
+      <h2>Experience</h2>
 
-<h3>iASYS Technologies</h3>
-<ul>
-<li>Developed automotive diagnostic tools using VC++</li>
-</ul>
+      <div class="job">
+        <h3>Info-Bridge Solutions Pvt. Ltd.</h3>
+        <span>Senior Software Engineer | 2010 – Present</span>
+        <ul>
+          <li>Developed IoT firmware using C++ for low-power devices</li>
+          <li>Implemented LoRa mesh communication for long-range networking</li>
+          <li>Built Android (Kotlin) and iOS (SwiftUI) applications</li>
+          <li>Led defect resolution team and improved product stability</li>
+        </ul>
+      </div>
 
-<h2>Education</h2>
-<p>M.Sc Computer Science, Pune University</p>
+      <div class="job">
+        <h3>iASYS Technologies Pvt. Ltd.</h3>
+        <span>Senior Software Engineer | 2007 – 2010</span>
+        <ul>
+          <li>Developed automotive diagnostic tools using VC++ (MFC)</li>
+          <li>Built data visualization and reporting systems</li>
+          <li>Optimized performance for large-scale data handling</li>
+        </ul>
+      </div>
 
+    </section>
+
+    <section>
+      <h2>Key Achievements</h2>
+      <ul>
+        <li>Designed scalable IoT communication system using LoRa</li>
+        <li>Improved system performance and reliability</li>
+        <li>Delivered long-term enterprise product used globally</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p>M.Sc. Computer Science – University of Pune</p>
+      <p>B.Sc. Computer Science – University of Pune</p>
+    </section>
+
+    <footer>
+      © 2026 Pravin Gawade
+    </footer>
+
+  </div>
 </body>
 </html>
