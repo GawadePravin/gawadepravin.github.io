@@ -4,9 +4,11 @@
 ---
 
 ## Professional Summary
-Senior Software Engineer with 18+ years of experience in C/C++, embedded systems, and cross-platform application development. Expertise in designing high-performance desktop and IoT solutions with strong foundations in multi-threading, system-level programming, and troubleshooting complex production issues.
+Senior Software Engineer with 18+ years of experience in C/C++, embedded systems, and cross-platform application development. 
 
-Proven ability to deliver scalable products, modernize legacy systems, and lead small teams. Experienced in working with global clients and building reliable, production-grade software.
+Expert in designing high-performance desktop and IoT solutions, with strong skills in multi-threading, system-level programming, and troubleshooting complex production issues.
+
+Proven track record in product development, legacy modernization, and leading small teams. Experienced in working with global clients and delivering scalable, reliable software solutions.
 
 ---
 
