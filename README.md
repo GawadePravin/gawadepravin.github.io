@@ -24,7 +24,7 @@ Proven track record in product development, legacy modernization, and leading sm
 ## Professional Experience
 
 ### Info-Bridge Solutions Pvt. Ltd., Pune
-*Client: R-HUB Communications, Inc. (USA)*
+*Client: R-HUB Communications, Inc. (USA)*<br>
 **Senior Software Engineer** | Sept 2010 – Present
 
 #### TurboTracker (IoT / Embedded System)
