@@ -1,281 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pravin Gawade | Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<style>
-/* ========== BASE ========== */
-body {
-  font-family: 'Inter', sans-serif;
-  margin: 0;
-  background: #f5f7fb;
-  color: #1f2937;
-}
-
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-}
-
-/* All content containers now have same width */
-section, .profile-container {
-  width: 100%;                    /* Full width of container */
-  max-width: 960px;               /* Same width for all sections */
-  margin: 20px auto;              /* Centered with consistent spacing */
-  background: white;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-/* ========== PROFILE (LinkedIn Style) ========== */
-.profile-container {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-.profile-pic {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #e5e7eb;
-  flex-shrink: 0;
-}
-
-.profile-info h1 {
-  font-size: 1.8rem;
-  margin: 0 0 8px 0;
-}
-
-.title {
-  font-weight: 600;
-  color: #374151;
-  margin: 5px 0;
-}
-
-.contact {
-  color: #6b7280;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 10px 20px;
-  background: #111827;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  font-weight: 500;
-}
-
-.btn:hover {
-  background: #374151;
-}
-
-/* ========== SECTION HEADINGS ========== */
-h2 {
-  border-bottom: 2px solid #e5e7eb;
-  padding-bottom: 8px;
-  margin-top: 0;
-}
-
-/* ========== PROJECTS ========== */
-.project {
-  margin-top: 20px;
-  padding-top: 15px;
-  border-top: 1px solid #f3f4f6;
-}
-
-.project:first-child {
-  border-top: none;
-  padding-top: 0;
-  margin-top: 0;
-}
-
-/* ========== TABLET VIEW ========== */
-@media (max-width: 900px) {
-  .container {
-    padding: 15px;
-  }
-
-  section, .profile-container {
-    padding: 20px;
-    margin: 15px auto;
-  }
-
-  .profile-pic {
-    width: 110px;
-    height: 110px;
-  }
-}
-
-/* ========== MOBILE VIEW ========== */
-@media (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-
-  .profile-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .profile-pic {
-    width: 100px;
-    height: 100px;
-  }
-
-  section, .profile-container {
-    padding: 18px;
-  }
-
-  .btn {
-    width: 100%;
-    text-align: center;
-  }
-}
-
-/* ========== SMALL MOBILE ========== */
-@media (max-width: 400px) {
-  .profile-pic {
-    width: 90px;
-    height: 90px;
-  }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravin Dnyandeo Gawade | Senior Software Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1f2937;
+            --accent: #3b82f6;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: #f8fafc;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 980px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .profile-card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px 35px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+            display: flex;
+            align-items: center;
+            gap: 35px;
+            margin-bottom: 30px;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #e2e8f0;
+            flex-shrink: 0;
+        }
+        
+        .profile-info h1 {
+            font-size: 2.1rem;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+        
+        .title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 12px;
+        }
+        
+        .contact-info {
+            color: #64748b;
+            font-size: 1.02rem;
+            margin-bottom: 18px;
+        }
+        
+        .contact-info p {
+            margin-bottom: 6px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 12px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #111827;
+            transform: translateY(-2px);
+        }
+        
+        section {
+            background: white;
+            border-radius: 16px;
+            padding: 35px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 3px solid #e2e8f0;
+        }
+        
+        h3 {
+            color: #1e40af;
+            margin: 22px 0 8px 0;
+            font-size: 1.15rem;
+        }
+        
+        .job-title {
+            color: #64748b;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+        
+        .project {
+            margin-bottom: 28px;
+            padding-bottom: 22px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        
+        .project:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        
+        ul {
+            padding-left: 22px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .profile-card {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px 25px;
+            }
+            
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+            
+            .container {
+                margin: 20px auto;
+                padding: 0 15px;
+            }
+            
+            section {
+                padding: 28px 25px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .profile-pic {
+                width: 110px;
+                height: 110px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        
+        <!-- Profile Section -->
+        <div class="profile-card">
+            <img src="profile.jpg" alt="Pravin Dnyandeo Gawade" class="profile-pic">
+            <div class="profile-info">
+                <h1>Pravin Dnyandeo Gawade</h1>
+                <p class="title">Senior Software Engineer</p>
+                <div class="contact-info">
+                    <p>📍 Pune, Maharashtra, India</p>
+                    <p>📞 +91 99601 73015</p>
+                    <p>✉️ gawade.pravin@gmail.com</p>
+                </div>
+                <a href="Pravin_Gawade_CV.pdf" download class="btn">Download CV</a>
+            </div>
+        </div>
 
-<div class="container">
+        <!-- Professional Summary -->
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Senior Software Engineer with <strong>18+ years</strong> of experience in C/C++, embedded systems, and cross-platform application development.</p>
+            <p>Expert in IoT, firmware development, multi-threading, and system-level programming. Proven track record in designing scalable systems and resolving complex production issues.</p>
+        </section>
 
-  <div class="profile-container">
-    <img src="profile.jpg" alt="Pravin Gawade" class="profile-pic">
+        <!-- Technical Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> C, C++, Objective-C, Kotlin, Swift</li>
+                <li><strong>Frameworks:</strong> Win32, MFC, STL, Cocoa, UIKit, SwiftUI</li>
+                <li><strong>Platforms:</strong> Windows, macOS, Linux, Android, iOS</li>
+                <li><strong>Key Areas:</strong> OOP, Multi-threading, Embedded Systems, IoT, Firmware Development</li>
+                <li><strong>Tools:</strong> CVS, VSS</li>
+            </ul>
+        </section>
 
-    <div class="profile-info">
-      <h1>Pravin Dnyandeo Gawade</h1>
-      <p class="title">Senior Software Engineer</p>
-      <p class="contact">
-        📍 Pune, India<br>
-        📞 +91 9960173015<br>
-        ✉️ gawade.pravin@gmail.com
-      </p>
-      <a class="btn" href="Pravin_Gawade_CV.pdf" download>Download CV</a>
+        <!-- Professional Experience -->
+        <section>
+            <h2>Professional Experience</h2>
+            
+            <h3>Info-Bridge Solutions Pvt. Ltd., Pune</h3>
+            <p class="job-title">Senior Software Engineer | September 2010 – Present</p>
+            <p><strong>Client:</strong> R-HUB Communications, Inc. (San Jose, CA, USA)</p>
+
+            <div class="project">
+                <h4>TurboTracker (IoT / Embedded System)</h4>
+                <ul>
+                    <li>Designed and developed firmware for low-power IoT devices using C++</li>
+                    <li>Implemented LoRa mesh communication protocol</li>
+                    <li>Developed companion mobile apps for Android (Kotlin) and iOS (SwiftUI)</li>
+                    <li>Optimized communication protocols for reliability and power efficiency</li>
+                    <li>Conducted hardware testing, debugging, and field validation</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h4>TurboMeeting (Web Conferencing Platform)</h4>
+                <ul>
+                    <li>Led a team of 3–4 engineers for defect resolution and stabilization</li>
+                    <li>Developed features using VC++ (Win32 & MFC)</li>
+                    <li>Worked on cross-platform support (Windows, macOS, iOS, Android)</li>
+                    <li>Troubleshot critical production issues and improved system stability</li>
+                    <li>Conducted code reviews and architectural enhancements</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h4>Multi-Protocol IM Client</h4>
+                <ul>
+                    <li>Implemented MSN and Yahoo messaging protocols</li>
+                    <li>Analyzed and optimized network communication</li>
+                    <li>Developed core messaging features in C++</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h4>Speaker Timer Pro</h4>
+                <ul>
+                    <li>Enhanced features and licensing system</li>
+                    <li>Improved overall performance and stability</li>
+                </ul>
+            </div>
+
+            <h3>iASYS Technologies Pvt. Ltd., Pune</h3>
+            <p class="job-title">Senior Software Engineer | October 2007 – August 2010</p>
+            
+            <div class="project">
+                <h4>Orbit-E / Orbit-X (Automotive Diagnostics Tools)</h4>
+                <ul>
+                    <li>Developed desktop applications using VC++ (MFC)</li>
+                    <li>Built data visualization and analysis tools</li>
+                    <li>Implemented XML-based reporting system</li>
+                    <li>Optimized performance for handling large datasets</li>
+                    <li>Worked with clients: BASF, Tata Motors, ARAI, Eicher Motors</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Key Achievements -->
+        <section>
+            <h2>Key Achievements</h2>
+            <ul>
+                <li>Designed and delivered a scalable IoT system using LoRa mesh networking</li>
+                <li>Successfully stabilized TurboMeeting by leading the defect resolution team</li>
+                <li>Contributed to long-term global product delivery for international client</li>
+                <li>Significantly enhanced performance of legacy systems</li>
+            </ul>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <p><strong>M.Sc. Computer Science</strong> – University of Pune, 2007</p>
+            <p><strong>B.Sc. Computer Science</strong> – University of Pune</p>
+        </section>
+
+        <!-- Additional Information -->
+        <section>
+            <h2>Additional Information</h2>
+            <ul>
+                <li>Experience working with international clients in the USA</li>
+                <li>Visited R-HUB Communications Inc., San Jose, USA for business meetings</li>
+                <li>Strong analytical, debugging, and troubleshooting skills</li>
+                <li>Mentor and effective team collaborator</li>
+            </ul>
+        </section>
     </div>
-  </div>
-
-  <section>
-    <h2>Professional Summary</h2>
-    <p>Senior Software Engineer with 18+ years of experience in C/C++, embedded systems, and cross-platform application development.</p>
-    <p>Expert in IoT, firmware development, multi-threading, and system-level programming. Proven ability to design scalable systems and troubleshoot complex production issues.</p>
-  </section>
-
-  <section>
-    <h2>Technical Skills</h2>
-    <ul>
-      <li><b>Languages:</b> C, C++, Objective-C, Kotlin, Swift</li>
-      <li><b>Frameworks:</b> Win32, MFC, STL, Cocoa, UIKit, SwiftUI</li>
-      <li><b>Platforms:</b> Windows, macOS, Linux, Android, iOS</li>
-      <li><b>Concepts:</b> OOP, Multi-threading, Embedded Systems, IoT</li>
-      <li><b>Tools:</b> CVS, VSS</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Professional Experience</h2>
-
-    <h3>Info-Bridge Solutions Pvt. Ltd., Pune</h3>
-    <p class="subtle">Client: R-HUB Communications, Inc. (San Jose, CA, USA)</p>
-    <p class="job-title">Senior Software Engineer | Sept 2010 – Present</p>
-
-    <div class="project">
-      <h4>TurboTracker (IoT / Embedded System)</h4>
-      <ul>
-        <li>Designed and developed firmware for low-power IoT devices using C++</li>
-        <li>Implemented LoRa mesh communication</li>
-        <li>Developed Android (Kotlin) and iOS (SwiftUI) apps</li>
-        <li>Optimized communication protocols</li>
-        <li>Performed hardware testing and debugging</li>
-      </ul>
-    </div>
-
-    <div class="project">
-      <h4>TurboMeeting (Web Conferencing Platform)</h4>
-      <ul>
-        <li>Led defect resolution team of 3–4 engineers</li>
-        <li>Developed features using VC++ (Win32, MFC)</li>
-        <li>Worked on cross-platform applications (macOS/iOS/Android)</li>
-        <li>Troubleshot production issues</li>
-        <li>Performed code reviews and architecture improvements</li>
-      </ul>
-    </div>
-
-    <div class="project">
-      <h4>Multi-Protocol IM Client</h4>
-      <ul>
-        <li>Implemented MSN and Yahoo messaging protocols</li>
-        <li>Analyzed network communication</li>
-        <li>Developed messaging features in C++</li>
-      </ul>
-    </div>
-
-    <div class="project">
-      <h4>Speaker Timer Pro</h4>
-      <ul>
-        <li>Enhanced features and licensing system</li>
-        <li>Improved performance and stability</li>
-      </ul>
-    </div>
-
-    <h3>iASYS Technologies Pvt. Ltd., Pune</h3>
-    <p class="job-title">Senior Software Engineer | Oct 2007 – Aug 2010</p>
-
-    <div class="project">
-      <h4>Orbit-E / Orbit-X (Automotive Diagnostics Tools)</h4>
-      <ul>
-        <li>Developed desktop applications using VC++ (MFC)</li>
-        <li>Built data visualization tools</li>
-        <li>Implemented XML-based reporting system</li>
-        <li>Optimized performance for large datasets</li>
-        <li>Worked with BASF, Tata Motors, ARAI, Eicher Motors</li>
-      </ul>
-    </div>
-  </section>
-
-  <section>
-    <h2>Key Achievements</h2>
-    <ul>
-      <li>Designed scalable IoT system using LoRa mesh networking</li>
-      <li>Improved product stability by leading defect resolution team</li>
-      <li>Delivered long-term global product (TurboMeeting)</li>
-      <li>Enhanced legacy system performance</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Education</h2>
-    <p><b>M.Sc. Computer Science</b> – University of Pune, 2007</p>
-    <p><b>B.Sc. Computer Science</b> – University of Pune</p>
-  </section>
-
-  <section>
-    <h2>Additional Information</h2>
-    <ul>
-      <li>Experience working with international clients (USA)</li>
-      <li>Visited R-HUB Communications Inc., USA for business meetings</li>
-      <li>Strong analytical and troubleshooting skills</li>
-      <li>Mentor and team collaborator</li>
-    </ul>
-  </section>
-
-</div>
 </body>
 </html>
