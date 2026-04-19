@@ -24,6 +24,7 @@ Proven track record in product development, legacy modernization, and leading sm
 ## Professional Experience
 
 ### Info-Bridge Solutions Pvt. Ltd., Pune
+#### Worked for R-HUB Communications, Inc.
 **Senior Software Engineer** | Sept 2010 – Present
 
 #### TurboTracker (IoT / Embedded System)
@@ -36,9 +37,9 @@ Proven track record in product development, legacy modernization, and leading sm
 #### TurboMeeting (Web Conferencing Platform)
 - Led defect resolution team of 3–4 engineers, ensuring timely delivery of fixes
 - Designed and developed new features and application modules using VC++ (Win32, MFC)
+- Worked on cross-platform application using Objective-C (Cocoa, UIKit), Android
 - Troubleshot complex production issues and provided cross-team technical support
 - Performed code reviews and contributed to architecture improvements
-- Worked on cross-platform components using Objective-C (Cocoa, UIKit)
 
 #### Multi-Protocol IM Client
 - Researched and implemented messaging protocols for MSN and Yahoo integration
@@ -79,6 +80,7 @@ Proven track record in product development, legacy modernization, and leading sm
 
 ## Additional Information
 - Experience working with international clients (USA)
+- Visited to RHUB Communication Inc., San Jose, CA, USA for business meeting.
 - Strong analytical and troubleshooting skills
 - Effective mentor and team collaborator
 
