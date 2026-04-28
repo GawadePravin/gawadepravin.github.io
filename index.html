@@ -116,24 +116,26 @@
             transform: translateY(-2px);
         }
 
-          .linkedin {
-          display: inline-flex;
-          align-items: center;
-          gap: 6px;
-          margin-top: 6px;
-          color: #111827;
-          text-decoration: none;
-          font-size: 0.9rem;
-        }
-        
-        .linkedin:hover {
-          text-decoration: underline;
-        }
-        
-        .icon {
-          width: 18px;
-          height: 18px;
-        }
+          .linkedin-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: #64748b;
+          }
+          
+          .linkedin-row a {
+            color: #111827;
+            text-decoration: none;
+          }
+          
+          .linkedin-row a:hover {
+            text-decoration: underline;
+          }
+          
+          .icon {
+            width: 18px;
+            height: 18px;
+          }
         
         section {
             background: white;
@@ -231,9 +233,12 @@
                     <p>📍 Pune, Maharashtra, India</p>
                     <p>📞 +91 99601 73015</p>
                     <p>✉️ gawade.pravin@gmail.com</p>
-                    <p><a href="https://www.linkedin.com/in/pravingawade" target="_blank" class="linkedin">
+                    <p class="linkedin-row">
                       <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="icon">
-                      linkedin.com/in/gawadepravin</a></p>
+                      <a href="https://www.linkedin.com/in/pravingawade" target="_blank">
+                        linkedin.com/in/pravingawade
+                      </a>
+                    </p>
                 </div>
                 <a href="Pravin_Gawade_CV.pdf" download class="btn">Download CV</a>
             </div>
