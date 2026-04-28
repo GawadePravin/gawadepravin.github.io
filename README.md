@@ -4,7 +4,7 @@
 ---
 
 ## Professional Summary
-Senior Software Engineer with 18+ years of experience in C/C++, embedded systems, and cross-platform application development. 
+Senior Software Engineer with 18+ years of experience in C/C++, VC++(MFC), Embedded systems, Mobile App Development and cross-platform application development. 
 
 Expert in designing high-performance desktop and IoT solutions, with strong skills in multi-threading, system-level programming, and troubleshooting complex production issues.
 
@@ -13,11 +13,11 @@ Proven track record in product development, legacy modernization, and leading sm
 ---
 
 ## Technical Skills
-**Languages:** C, C++, Objective-C, Kotlin, Swift  
+**Languages:** C, C++, VC++, Objective-C, Kotlin, Swift  
 **Frameworks/Tools:** Win32, MFC, STL, Cocoa, UIKit, SwiftUI  
-**Platforms:** Windows, macOS, Linux, Android, iOS  
+**Platforms:** Windows, macOS, Android, iOS  
 **Concepts:** OOP, Multi-threading, Embedded Systems, IoT  
-**Tools:** CVS, VSS  
+**Tools:** Visual Studio, XCode, Android Studio, Visual Studio Code, CVS, VSS  
 
 ---
 
