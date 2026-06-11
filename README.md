@@ -16,7 +16,8 @@ Proven track record in product development, legacy modernization, and leading sm
 **Languages:** C, C++, VC++, Objective-C, Kotlin, Swift  
 **Frameworks/Tools:** Win32, MFC, STL, Cocoa, UIKit, SwiftUI  
 **Platforms:** Windows, macOS, Android, iOS  
-**Concepts:** OOP, Multi-threading, Embedded Systems, IoT  
+**Concepts:** OOPs, Multi-threading, Socket Programming (TCP/IP, UDP), RTSP,
+  Embedded Systems, Firmware Development, RTOS, IoT, Mobile App Development  
 **Tools:** Visual Studio, XCode, Android Studio, Visual Studio Code, CVS, VSS  
 
 ---
