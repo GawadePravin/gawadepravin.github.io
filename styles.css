@@ -120,7 +120,7 @@ h2 {
 
 h3 {
     color: #1e40af;
-    margin: 22px 0 8px 0;
+    margin: 22px 0 18px 0;
     font-size: 1.15rem;
 }
 
@@ -132,7 +132,7 @@ h3 {
 
 .project {
     margin-bottom: 28px;
-    padding-bottom: 28px;
+    padding-bottom: 22px;
     border-bottom: 1px solid #f1f5f9;
 }
 
