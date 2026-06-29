@@ -125,10 +125,8 @@ h3 {
 }
 
 h4 {
-    color: #1e40af;
     margin: 22px 0 20px 0;     /* Increased gap here */
     font-size: 1.15rem;
-    font-weight: 600;
 }
 
 .job-title {
