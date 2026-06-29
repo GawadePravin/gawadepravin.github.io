@@ -28,19 +28,19 @@ Proven track record in product development, legacy modernization, and leading sm
 *Client: R-HUB Communications, Inc. (San Jose, CA, USA)*<br>
 **Senior Software Engineer** | Sept 2010 – Present
 
-#### TurboTracker (IoT / Embedded System)
-- Designed and developed firmware for low-power IoT devices using C++
-- Implemented LoRa-based mesh communication for long-range device networking
-- Developed mobile applications for Android (Kotlin) and iOS (SwiftUI) for device configuration and tracking
-- Optimized communication protocols to improve reliability in multi-node environments
-- Conducted hardware testing, debugging, and validation for real-world deployment
-
 #### TurboMeeting (Web Conferencing Platform)
 - Led defect resolution team of 3–4 engineers, ensuring timely delivery of fixes
 - Designed and developed new features and application modules using VC++ (Win32, MFC)
 - Worked on cross-platform application using Objective-C (Cocoa, UIKit), Android
 - Troubleshot complex production issues and provided cross-team technical support
 - Performed code reviews and contributed to architecture improvements
+
+#### TurboTracker (IoT / Embedded System)
+- Designed and developed firmware for low-power IoT devices using C++
+- Implemented LoRa-based mesh communication for long-range device networking
+- Developed mobile applications for Android (Kotlin) and iOS (SwiftUI) for device configuration and tracking
+- Optimized communication protocols to improve reliability in multi-node environments
+- Conducted hardware testing, debugging, and validation for real-world deployment
 
 #### Multi-Protocol IM Client
 - Researched and implemented messaging protocols for MSN and Yahoo integration
