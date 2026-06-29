@@ -28,7 +28,7 @@ Proven track record in product development, legacy modernization, and leading sm
 *Client: R-HUB Communications, Inc. (San Jose, CA, USA)*<br>
 **Senior Software Engineer** | Sept 2010 – Present
 
-#### TurboMeeting (Web Conferencing Platform)
+#### TurboMeeting (Video Conferencing Platform)
 - Led defect resolution team of 3–4 engineers, ensuring timely delivery of fixes
 - Designed and developed new features and application modules using VC++ (Win32, MFC)
 - Worked on cross-platform application using Objective-C (Cocoa, UIKit), Android
